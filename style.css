@@ -28,18 +28,23 @@ body {
 }
 
 #sale-card {
-    width: 50%;
+    width: 80%;
     height: auto; 
 }
 
 #sale-card-row {
-    width: 100%;
+    width: fit-content;
     display: flex;
     flex-direction: row;
-    margin: 20px 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 30px;
 }
 
-p {
-    width: 50%;
+#sale-card > p {
+    width: 80%;
     font-size: 16px;
+    color: #2F3645;
+    margin: 0;
 }
+
